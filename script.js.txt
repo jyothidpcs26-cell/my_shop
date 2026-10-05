@@ -1,0 +1,7 @@
+const shopButton = document.getElementById('buyButton');
+let cartCount = 0;
+
+shopButton.addEventListener('click', () => {
+    cartCount = cartCount + 1;
+    alert('Success! Item added. Total items in your cart: ' + cartCount);
+});
